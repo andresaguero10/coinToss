@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B50CC21E21BF81005F5355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50CC11E21BF81005F5355 /* main.m */; };
+		43B50CC51E21BF81005F5355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50CC41E21BF81005F5355 /* AppDelegate.m */; };
+		43B50CC81E21BF81005F5355 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50CC71E21BF81005F5355 /* ViewController.m */; };
+		43B50CCB1E21BF81005F5355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B50CC91E21BF81005F5355 /* Main.storyboard */; };
+		43B50CCD1E21BF81005F5355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B50CCC1E21BF81005F5355 /* Assets.xcassets */; };
+		43B50CD01E21BF81005F5355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B50CCE1E21BF81005F5355 /* LaunchScreen.storyboard */; };
+		43B50CD91E21C111005F5355 /* QuestionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50CD81E21C111005F5355 /* QuestionClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43B50CBD1E21BF81005F5355 /* CoinToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B50CC11E21BF81005F5355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43B50CC31E21BF81005F5355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43B50CC41E21BF81005F5355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43B50CC61E21BF81005F5355 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43B50CC71E21BF81005F5355 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43B50CCA1E21BF81005F5355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43B50CCC1E21BF81005F5355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B50CCF1E21BF81005F5355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43B50CD11E21BF81005F5355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B50CD71E21C111005F5355 /* QuestionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionClass.h; sourceTree = "<group>"; };
+		43B50CD81E21C111005F5355 /* QuestionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B50CBA1E21BF81005F5355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B50CB41E21BF81005F5355 = {
+			isa = PBXGroup;
+			children = (
+				43B50CBF1E21BF81005F5355 /* CoinToss */,
+				43B50CBE1E21BF81005F5355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43B50CBE1E21BF81005F5355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B50CBD1E21BF81005F5355 /* CoinToss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B50CBF1E21BF81005F5355 /* CoinToss */ = {
+			isa = PBXGroup;
+			children = (
+				43B50CC31E21BF81005F5355 /* AppDelegate.h */,
+				43B50CC41E21BF81005F5355 /* AppDelegate.m */,
+				43B50CC61E21BF81005F5355 /* ViewController.h */,
+				43B50CC71E21BF81005F5355 /* ViewController.m */,
+				43B50CD71E21C111005F5355 /* QuestionClass.h */,
+				43B50CD81E21C111005F5355 /* QuestionClass.m */,
+				43B50CC91E21BF81005F5355 /* Main.storyboard */,
+				43B50CCC1E21BF81005F5355 /* Assets.xcassets */,
+				43B50CCE1E21BF81005F5355 /* LaunchScreen.storyboard */,
+				43B50CD11E21BF81005F5355 /* Info.plist */,
+				43B50CC01E21BF81005F5355 /* Supporting Files */,
+			);
+			path = CoinToss;
+			sourceTree = "<group>";
+		};
+		43B50CC01E21BF81005F5355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B50CC11E21BF81005F5355 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B50CBC1E21BF81005F5355 /* CoinToss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B50CD41E21BF81005F5355 /* Build configuration list for PBXNativeTarget "CoinToss" */;
+			buildPhases = (
+				43B50CB91E21BF81005F5355 /* Sources */,
+				43B50CBA1E21BF81005F5355 /* Frameworks */,
+				43B50CBB1E21BF81005F5355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinToss;
+			productName = CoinToss;
+			productReference = 43B50CBD1E21BF81005F5355 /* CoinToss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B50CB51E21BF81005F5355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andres Aguero";
+				TargetAttributes = {
+					43B50CBC1E21BF81005F5355 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 43B50CB81E21BF81005F5355 /* Build configuration list for PBXProject "CoinToss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43B50CB41E21BF81005F5355;
+			productRefGroup = 43B50CBE1E21BF81005F5355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B50CBC1E21BF81005F5355 /* CoinToss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43B50CBB1E21BF81005F5355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B50CD01E21BF81005F5355 /* LaunchScreen.storyboard in Resources */,
+				43B50CCD1E21BF81005F5355 /* Assets.xcassets in Resources */,
+				43B50CCB1E21BF81005F5355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B50CB91E21BF81005F5355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B50CD91E21C111005F5355 /* QuestionClass.m in Sources */,
+				43B50CC81E21BF81005F5355 /* ViewController.m in Sources */,
+				43B50CC51E21BF81005F5355 /* AppDelegate.m in Sources */,
+				43B50CC21E21BF81005F5355 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43B50CC91E21BF81005F5355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B50CCA1E21BF81005F5355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43B50CCE1E21BF81005F5355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B50CCF1E21BF81005F5355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43B50CD21E21BF81005F5355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43B50CD31E21BF81005F5355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43B50CD51E21BF81005F5355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoinToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguerodesigns.CoinToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43B50CD61E21BF81005F5355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoinToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguerodesigns.CoinToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B50CB81E21BF81005F5355 /* Build configuration list for PBXProject "CoinToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B50CD21E21BF81005F5355 /* Debug */,
+				43B50CD31E21BF81005F5355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B50CD41E21BF81005F5355 /* Build configuration list for PBXNativeTarget "CoinToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B50CD51E21BF81005F5355 /* Debug */,
+				43B50CD61E21BF81005F5355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43B50CB51E21BF81005F5355 /* Project object */;
+}
