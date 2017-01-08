@@ -21,5 +21,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *mainAnswer;
 
+@propert (nonatomic, strong) NSString *sample;
+
 @end
 
